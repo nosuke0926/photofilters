@@ -26,8 +26,7 @@ List<num?> rgbToHsv(num r, num g, num b) {
     h = (b - r) / d + 2;
   } else if (_max == b) {
     h = (r - g) / d + 4;
-  }
-  else {
+  } else {
     h = 0;
   }
 
